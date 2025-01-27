@@ -53,4 +53,4 @@ jobs:
       - name: Install Dependencies for Testing
         run: pip install pytest scikit-learn
       - name: Run Tests
-        run: pytest
+        run: pytest  # This will run all test files, including `test_model.py`
