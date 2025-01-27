@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rama.manichander%40npci.org.in/Videos/ManiRepo/mlops-sample/mlruns/0/ee7e6bd0ca2e4744970d37d6e6f683bb/artifacts
+end_time: 1737962787110
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee7e6bd0ca2e4744970d37d6e6f683bb
+run_name: loud-turtle-500
+run_uuid: ee7e6bd0ca2e4744970d37d6e6f683bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737962783217
+status: 3
+tags: []
+user_id: rama.manichander
