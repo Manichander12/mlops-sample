@@ -34,6 +34,8 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.8'
+      - name: Install Dependencies for Linting
+        run: pip install autopep8 flake8
       - name: Auto-format Code
         run: autopep8 --in-place --aggressive --aggressive model.py
       - name: Run Linting
@@ -48,5 +50,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.8'
+      - name: Install Dependencies for Testing
+        run: pip install pytest scikit-learn
       - name: Run Tests
         run: pytest
