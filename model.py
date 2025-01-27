@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import mlflow.sklearn
+import joblib
 
 # Load the Iris dataset
 data = load_iris()
@@ -46,6 +47,9 @@ def train_and_evaluate():
     with mlflow.start_run():
         mlflow.log_metric("accuracy", accuracy)
         mlflow.sklearn.log_model(model, "model")
+    
+    # Save the trained model to model.pkl
+    joblib.dump(model, "model.pkl")
     
     return accuracy
 

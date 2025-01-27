@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rama.manichander%40npci.org.in/Videos/ManiRepo/mlops-sample/mlruns/0/e6e60da2af73448b9f0569b766abb1eb/artifacts
+end_time: 1737965494303
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e6e60da2af73448b9f0569b766abb1eb
+run_name: bouncy-cat-931
+run_uuid: e6e60da2af73448b9f0569b766abb1eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737965492941
+status: 3
+tags: []
+user_id: rama.manichander
