@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rama.manichander%40npci.org.in/Videos/ManiRepo/mlops-sample/mlruns/0/f10eb230b33749e1ba82e926b0daa7bb/artifacts
+end_time: 1737964137793
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f10eb230b33749e1ba82e926b0daa7bb
+run_name: gentle-ox-233
+run_uuid: f10eb230b33749e1ba82e926b0daa7bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737964132894
+status: 3
+tags: []
+user_id: rama.manichander
